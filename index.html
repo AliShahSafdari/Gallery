@@ -12,11 +12,16 @@
 </head>
 <body>
     <header>
-        <a href="#"><i class="fa-solid fa-bars"></i></a>
+        <button class="btn-bars"><i class="fa-solid fa-bars"></i></button>
         <h3>Gallery</h3>
         <a href="mailto:alishahsafdari905@email.com" aria-label="Contact Us" class="contact-link">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-        </a>    
+        </a>   
+        <ul>
+            <li>home</li>
+            <li>details</li>
+            <li>close</li>
+        </ul> 
     </header>
     <main>
         <!-- Main content goes here -->
@@ -40,5 +45,11 @@
         <p>&copy; 2023 My Website Gallery. All rights reserved.</p>
     </footer>
     
+    <script>
+    let btn= document.querySelector(".btn-bars")
+    btn.addEventListener("click", () => {
+        
+    });
+    </script>
 </body>
 </html>
