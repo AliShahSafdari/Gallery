@@ -31,6 +31,9 @@ header h3 {
 header a {
     color: #fff;
 }
+header ul {
+    display: none;
+}
 main h2, main p {
     padding-left: 10px;
 }
