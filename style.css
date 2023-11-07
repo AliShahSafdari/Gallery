@@ -34,6 +34,9 @@ header a {
 header ul {
     display: none;
 }
+.active{
+    display: block;
+}
 main h2, main p {
     padding-left: 10px;
 }

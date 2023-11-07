@@ -12,16 +12,20 @@
 </head>
 <body>
     <header>
+        <div class="header-first">
         <button class="btn-bars"><i class="fa-solid fa-bars"></i></button>
         <h3>Gallery</h3>
         <a href="mailto:alishahsafdari905@email.com" aria-label="Contact Us" class="contact-link">
             <i class="fas fa-envelope" aria-hidden="true"></i>
-        </a>   
-        <ul>
+        </a>
+        </div>
+        <div>   
+        <ul class="MenuItem">
             <li>home</li>
             <li>details</li>
             <li>close</li>
-        </ul> 
+        </ul>
+        </div> 
     </header>
     <main>
         <!-- Main content goes here -->
@@ -48,7 +52,9 @@
     <script>
     let btn= document.querySelector(".btn-bars")
     btn.addEventListener("click", () => {
-        
+     let menu =  document.querySelector(".MenuItem");
+     menu.classList.toggle("active");
+    //  menu.className += toggle(" active"); 
     });
     </script>
 </body>
